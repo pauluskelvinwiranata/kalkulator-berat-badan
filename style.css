@@ -37,7 +37,6 @@ input {
   width: 100%;
   padding: 12px;
   margin-bottom: 20px;
-  border: 1px solid #ccc;
   font-size: 14px;
   box-sizing: border-box;
   border-radius: 7px;
@@ -45,6 +44,8 @@ input {
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 select,
